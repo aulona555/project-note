@@ -1,0 +1,98 @@
+/* ContentWindow.css */
+
+/* Main Container */
+.container {
+    background-color: white;
+    color: black;
+    margin: 8px 4px; 
+    border-radius: 8px;
+    border: 1px solid #ddd; 
+    width: 100%;
+    padding: 8px; 
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: auto;
+  }
+  
+  /* Create Note Button */
+  .create-note-button {
+    background-color: #71CF48;
+    border-radius: 8px; 
+    min-width: 200px;
+    width: 25%; 
+    border: 1px solid #ddd; 
+    display: flex;
+    justify-content: center;
+    padding: 8px; 
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .create-note-button:hover {
+    background-color: #71cf48d2;
+  }
+  
+  .create-note-button button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-note-button img {
+    width: 25px; 
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 12px; 
+    transform: translateY(-50%);
+  }
+  
+  /* Search Input */
+  .search-input-container {
+    min-width: 300px;
+    height: 80px;
+    width: 25%; 
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .search-input {
+    height: 30px;
+    padding-left: 12px;
+    padding: 4px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: white;
+    color: black;
+  }
+  
+  .search-input:focus {
+    border-color: #b0bec5; 
+  }
+  
+  /* Notes List Item */
+  .note-item {
+    padding: 8px; 
+    margin: 8px 0; 
+    cursor: pointer;
+  }
+  
+  .note-item:hover {
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    padding: 4px; 
+  }
+  
+  .note-item h1 {
+    font-weight: 500; 
+    font-size: 1.125rem; 
+  }
+  
+  .note-item p {
+    font-size: 0.875rem; 
+  }
+  

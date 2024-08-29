@@ -1,0 +1,135 @@
+/* NoteEditor.css */
+
+/* Main Container */
+.container {
+    background-color: white;
+    color: black;
+    margin: 8px 4px; 
+    border-radius: 8px; 
+    border: 1px solid #ddd; 
+    width: 100%;
+    padding: 8px; 
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Buttons Section */
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px; 
+  }
+  
+  .button-group button {
+    width: 80px; 
+    height: 34px; 
+    border-radius: 8px; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #1264A3;
+  }
+  
+  .primary-btn:hover {
+    background-color: #1264a3de;
+  }
+  
+  .secondary-btn {
+    background-color: #71CF48;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #71cf48de;
+  }
+  
+  .small-button-group {
+    display: flex;
+    gap: 8px; 
+  }
+  
+  .small-button-group button {
+    width: 32px; 
+    height: 34px; 
+    border-radius: 8px; 
+    background-color: #1264A3;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .small-button-group button:hover {
+    background-color: #1264a3de;
+  }
+  
+  /* Form Section */
+  .form-section {
+    margin-top: 20px; 
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    outline: none;
+  }
+  
+  .form-section input {
+    margin-top: 16px; 
+    margin-right: 10px;
+  }
+  
+  .form-section textarea {
+    margin-top: 20px; 
+    font-size: 1rem; 
+    resize: none; 
+    height: 200px; 
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px; 
+  }
+  
+  .button-container button {
+    width: 128px; 
+    height: 34px; 
+    border-radius: 8px; 
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #71CF48;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+  }
+  
+  .save-button:hover {
+    background-color: #71cf48d3;
+  }
+  
+  .delete-button {
+    background-color: #FE4C4A;
+    margin-top: 15px;
+  }
+  
+  .delete-button:hover {
+    background-color: #fe4d4acc;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
